@@ -1,0 +1,66 @@
+/* Container FAQ */
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.faq-container {
+    text-align: center;
+    width: 60%;
+}
+
+/* Styling Frage */
+.faq-container p {
+    border: 2px solid #ffcc00; 
+    background-color: #fff8dc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Styling Button */
+.faq-container button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color:  #fff8dc;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.faq-container button:hover {
+    background-color: #ffb700;
+}
+
+/* Sichtbare Antwort */
+.visible {
+    display: block; /* wichtig für switch-function */
+    border: 2px solid #2e8b57; 
+    background-color: #f0fff0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/* Versteckte Antwort */
+.hide {
+    display: none; /* wichtig für switch-function */
+}
+
+.visible p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Styling Überschrift */
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}  
