@@ -37,9 +37,24 @@
     background-color: #ffb700;
 }
 
+/* Styling für den zusätzlichen Button */
+.more-info-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #fff8dc;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.more-info-button:hover {
+    background-color: #ffb700;
+}
+
 /* Sichtbare Antwort */
 .visible {
-    display: block; /* wichtig für switch-function */
+    display: block; /* für switch-function! */
     border: 2px solid #2e8b57; 
     background-color: #f0fff0;
     padding: 20px;
@@ -49,12 +64,23 @@
     margin-top: 10px;
 }
 
-/* Versteckte Antwort */
-.hide {
-    display: none; /* wichtig für switch-function */
+.visible-long {
+    display: block;
+    border: 2px solid #2e8b57; 
+    background-color: #f0fff0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    width: 90%;
+    margin-top: 10px;
 }
 
-.visible p {
+/* Versteckte Antwort */
+.hide {
+    display: none; /* für switch-function! */
+}
+
+.visible p, .visible-long p {
     margin: 0;
     font-size: 1.2em;
 }
@@ -63,4 +89,4 @@
 h3 {
     text-align: center;
     margin-bottom: 20px;
-}  
+}
